@@ -25,7 +25,7 @@ contract BankEth is ERC20, Ownable {
 
     BankEthDividendTracker public dividendTracker;
 
-    address payable public devAddress = 0x7555De0c971C73C85460F5Fb6f53aA6c4FCD7FAE;
+    address payable public devAddress = 0x2B58fc2a5CC4A0d34D79a6Bc24d4Db9bB175b392;
     
     uint256 public maxDailyTransferAmount = 2000000 * (10**18);
     uint256 public swapTokensAtAmount = 200000 * (10**18);
